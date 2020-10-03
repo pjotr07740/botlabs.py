@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Botlabs.py", # Replace with your own username
-    version="1.0.3",
+    version="1.0.4",
     author="Pjotr",
     author_email="pjotrlspdfr@outlook.com",
     description="A simple API wrapper for discordbotlabs.org",
