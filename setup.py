@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Botlabs.py", # Replace with your own username
-    version="1.0.1",
+    version="1.0.3",
     author="Pjotr",
     author_email="pjotrlspdfr@outlook.com",
     description="A simple API wrapper for discordbotlabs.org",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
