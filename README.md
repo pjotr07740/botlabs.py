@@ -5,7 +5,9 @@
 botlabs.py is an API wrapper for discordlabs.org.
 
 ### Documentation
-soonTM
+https://pjotr07740.github.io/botlabs.py/
 
 ### Install
-soonTM
+```
+pip install Botlabs.py
+```
