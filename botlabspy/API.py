@@ -16,12 +16,19 @@ class API:
         self.url = f'https://bots.discordlabs.org/v2/bot{self.bot_id}'
 
     def _bot_info(self):
+        """
+        :return: Returns the json file from the API.
+        """
         r = requests.get(self.url + str(self.bot_id))
         data = r.json()
         return data
 
-    @staticmethod
+
     def _error(data):
+        """
+        :param data: A json file.
+        :return: True if there is an error False if not.
+        """
         if data['error'] is 'true':
             return True
         else:
